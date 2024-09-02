@@ -1,9 +1,22 @@
 <style>
 body {
-    font-family: Arial, sans-serif;
+    font-family: Tahoma, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #9c8df0;
+}
+
+section {
+    text-align: center;  /* Centers the text */
+    margin: 0 auto;
+    padding: 20px;       /* Adds padding around the text */
+    background-color: #050505; /* Optional: Set a background color */
+    width: 80%;          /* Optional: Set a width to control the section size */
+
+/* Use a different font for all headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica', sans-serif; /* Font for headers */
+    color: #06a086; /* Example color */
 }
 
 header {
@@ -12,6 +25,7 @@ header {
     padding: 1rem;
     text-align: center;
 }
+
 
 nav ul {
     list-style: none;
@@ -30,7 +44,7 @@ nav ul li a {
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: #050505;
     text-align: center;
     padding: 1rem;
     position: fixed;
